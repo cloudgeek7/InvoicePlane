@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:cli-buster
 
 # Set environment variables
 ARG TZ=UTC
